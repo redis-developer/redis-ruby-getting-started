@@ -77,4 +77,20 @@ redis = Redis.new (
 
 To adapt this example to your code, make sure that you replace the following values with those of your database:
 
+You can find connect.rb under this directory which you can directly use to test it.
 
+Just execute the below command:
+
+```
+ruby connect.rb
+```
+## Verifying
+
+```
+127.0.0.1:6379> monitor
+OK
+1614684665.728109 [0 [::1]:50918] "select" "11"
+1614684665.728294 [11 [::1]:50918] "set" "mykey" "hello world"
+1614684665.728435 [11 [::1]:50918] "get" "mykey"
+
+```
