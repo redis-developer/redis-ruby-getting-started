@@ -77,26 +77,4 @@ redis = Redis.new (
 
 To adapt this example to your code, make sure that you replace the following values with those of your database:
 
-In line 4, the
 
-```
-:host
-```
-
-should be your database’s hostname or IP address
-
-In line 5, the
-
-```
-:port
-```
-
-should be your database’s port
-
-In line 6, the
-
-```
-:password
-```
-
-should be your database’s password
